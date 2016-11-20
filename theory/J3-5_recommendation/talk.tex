@@ -1,4 +1,4 @@
-\input ../talk-header.tex
+\input ../../talk-header.tex
 \usepackage{centernot}
 \usepackage[]{algorithm2e}
 
@@ -111,14 +111,14 @@
   \textit{\purple{More things similar to what I like}}\\
   \textit{\red{Plus de ce qui ressemble à ce que j'aime}}
 
-  Advantages
+  Advantages\vspace{-2mm}
   \begin{itemize}
   \item [yes!] No need for community
   \item [yes!] Possible to compare items 
   \end{itemize}
 
-  \bigskip
-  Disadvantages
+  \medskip
+  Disadvantages\vspace{-2mm}
   \begin{itemize}
   \item [no] Understand content
   \item [yes] Cold start problem
@@ -131,15 +131,15 @@
   \textit{\purple{More of what other people who like what I like like}}\\
   \textit{\red{Plus de ce que d'autres qui aiment ce que j'aime aiment}}
 
-  Advantages
+  Advantages\vspace{-2mm}
   \begin{itemize}
   \item [yes!] No need to understand content
   \item [yes!] Serendipity
   \item [yes!] Learn market
   \end{itemize}
 
-  \bigskip
-  Disadvantages
+  \medskip
+  Disadvantages\vspace{-2mm}
   \begin{itemize}
   \item [no] User feedback
   \item [yes] Cold start problem (users)
@@ -152,7 +152,7 @@
   \textit{\purple{More of what I need}}\\
   \textit{\red{Plus de ce qu'il faut}}
 
-  Advantages
+  Advantages\vspace{-2mm}
   \begin{itemize}
   \item [yes!] Deterministic
   \item [yes!] Certainty
@@ -160,8 +160,8 @@
   \item [yes!] Market knowledge
   \end{itemize}
 
-  \bigskip
-  Disadvantages
+  \medskip
+  Disadvantages\vspace{-2mm}
   \begin{itemize}
   \item [yes] Studies to bootstrap
   \item [yes] Static model, doesn't learn from trends
@@ -353,7 +353,6 @@
       TF\mbox{-}IDF_{ij} = TF_{ij} \cdot IDF_i
     \end{displaymath}
   }
-  
   with :
   \begin{align*}
     f_{ij} &= \mbox{frequency of word $i$ in document $j$} \\
@@ -361,7 +360,6 @@
     n_i &= \mbox{number of documents in which we find word $i$}
   \end{align*}
 
-  
   \only<2->{
     IDF is a mesure of how much information a word carries
 
@@ -369,7 +367,7 @@
   }
   
   \only<3>{
-    \vspace{-5mm}
+    \vspace{-3mm}
     \gray{Variation: boolean, log, stop word filtering}
   }
 \end{frame}
