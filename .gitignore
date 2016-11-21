@@ -12,6 +12,8 @@ venv2
 *.fls
 *.out
 *.toc
+*.nav
+*.snm
 
 ## Misc
 *~
